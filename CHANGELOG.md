@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Fixes
+
+- Doctor: distinguish bounded remote-embedding batch-shape numerical drift from stale or corrupt vectors, while retaining strict local checks and fail-closed handling for material remote mismatches.
+
 ## [2.8.3] - 2026-08-16
 
 ### Security
